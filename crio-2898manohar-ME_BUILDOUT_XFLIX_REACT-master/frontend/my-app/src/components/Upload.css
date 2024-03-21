@@ -1,0 +1,74 @@
+.MuiPaper-root{
+    background-color: rgba(0,0,0,0.4) !important;
+    width: 100% !important;
+    height:100% !important;
+    padding: 0%;
+    margin: 0% !important;
+    margin-top: 0%!important;
+    margin-bottom: 0% !important;
+}
+.Form-Box{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    background-color: #202020;
+    width:30%;
+    height: fit-content;
+    font-size: small;
+    color:white;
+    padding: 10px;
+    margin:auto;
+    margin-top: 5%;
+   
+}
+.form-info{
+    cursor: pointer;
+    width: 95%;
+    height:60%;
+    margin-top: 50px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  
+}
+
+.form-info label{
+    font-size: smaller;
+    margin-top: 2px !important;
+
+}
+.form-info input,select{
+  
+    background-color: transparent !important;
+    height:20px;
+    border-width:1px ;
+    border-radius: 2px;
+    border-color: grey;
+    border-style:solid;
+    color:white;
+}
+
+.form-info option{
+ background-color:darkgray;
+}
+
+.cross{
+    cursor: pointer;
+   position: absolute;
+   right:20px;
+}
+.Upload-Button{
+    width:35%;
+    align-self: center;
+    background-color: #EE1520 !important;
+    color:white !important;
+}
+.Cancel{
+    color: white!important;
+    width:fit-content;
+    align-self: flex-start;
+}
+
+.circular{
+    align-self: center;
+}
